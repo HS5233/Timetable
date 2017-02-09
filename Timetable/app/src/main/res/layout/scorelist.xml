@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="课程名称"
+                android:layout_weight="15"
+                android:id="@+id/textView71"
+                android:layout_column="0" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="学分"
+                android:layout_weight="3"
+                android:id="@+id/textView72"
+                android:layout_column="1" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="成绩"
+                android:layout_weight="3"
+                android:id="@+id/textView73"
+                android:layout_column="2" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="标记"
+                android:layout_weight="3"
+                android:id="@+id/textView74"
+                android:layout_column="3" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
